@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Shadow Into light";
+  font-size: 16px;
+  background: whitesmoke;
+}
+
+textarea, h2{
+  font-size: inherit;
+}
+
+nav{
+  height: 75px;
+  background-color: white;
+}
+
+nav h1{
+  float: left;
+  padding-top: 10px;
+  margin-left: 10%;
+}
+
+nav button{
+  float: right;
+  margin-top: 15px;
+  margin-right: 15%;
+}
+
+.flashcards-container{
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.create-container{
+  display: none;
+  position: absolute;
+  background-color: gray;
+  color: white;
+  top: 25%;
+  left: 34%;
+  width: 390px;
+  padding: 20px;
+  box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.50);
+}
+
+.create-container textarea{
+  outline: none;
+  width: 350px;
+  height: 75px;
+}
+
+.create-container svg{
+  float: right;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.create-container svg:hover{
+  background-color: red;
+  color: white;
+}
+
+.create-container button{
+  width: 100%;
+  margin-top: 7px;
+}
